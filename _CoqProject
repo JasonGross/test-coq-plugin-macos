@@ -1,7 +1,5 @@
 -R src Demo
 -I src
-src/strategy_tactic.ml
-src/strategy_tactic.mli
 src/strategy_tactic_plugin.mlg
 src/strategy_tactic_plugin.mllib
 src/Strategy.v
