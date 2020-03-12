@@ -69,4 +69,6 @@ jobs:
     - name: submodules-init
       uses: snickerbockers/submodules-init@v4
     - name: all
-      run: make all VERBOSE=1
+      run: |
+        eval $(opam env)
+        make all VERBOSE=1
